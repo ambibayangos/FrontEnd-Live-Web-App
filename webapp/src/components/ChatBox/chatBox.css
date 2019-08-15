@@ -1,0 +1,13 @@
+.chatBox {
+  height: 83%;
+  width: 30%;
+
+  top: 100px;
+  right: 30px;
+  position: fixed;
+  overflow-wrap: break-word;
+  padding-right: 30px;
+
+  background: #333333 !important;
+  border-radius: 5px;
+}

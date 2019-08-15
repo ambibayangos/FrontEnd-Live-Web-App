@@ -1,0 +1,41 @@
+.add-video-panel {
+  height: 55%;
+  width: 20%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  position: fixed;
+  top: 85px;
+  right: 0.5%;
+  display: flex;
+  flex-direction: column;
+  z-index: 200;
+  text-align: left;
+
+  background: #f6f2f2;
+  border-radius: 3px;
+}
+
+.space {
+  padding-bottom: 5%;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.ui.button.negative.basic.button:hover {
+  background-color: rgb(160, 54, 54) !important;
+  color: white !important;
+}
+
+.ui.button.positive.basic.button:hover {
+  background-color: green !important;
+  color: white !important;
+}
+
+.title-color {
+  color: Black;
+}
